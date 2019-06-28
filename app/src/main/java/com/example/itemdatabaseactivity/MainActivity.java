@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     DatabaseHelper db;
-//
-//    @ButterKnife(R.id.button_addID)
-//    Button btnAddId;
-//    @ButterKfine(R.id.button_addID)
-//    TextView btnAddId;
+
+    @ButterKnife(R.id.button_addID)
+    Button btnAddId;
+    @ButterKfine(R.id.button_addID)
+    TextView btnAddId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
