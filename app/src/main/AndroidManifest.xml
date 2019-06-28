@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.itemdatabaseactivity">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InEntry"
+            android:label="@string/InEntry"
+            ></activity>
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/home" />
+        <activity
+            android:name=".Menu"
+            android:label="@string/menu" />
+        <activity android:name=".EditdatabaseActivity" />
+        <activity
+            android:name=".ViewVehicleDatabase"
+            android:label="@string/VehicleDetails" />
+        <activity
+            android:name=".AddVehicle"
+            android:label="@string/VehicleDatabaseEntry" />
+        <activity
+            android:name=".Vehicle_Database"
+            android:label="@string/VehicleDatabase" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/RegisterScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

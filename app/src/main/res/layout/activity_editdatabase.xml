@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditdatabaseActivity"
+    android:gravity="center_horizontal"
+
+    >
+<EditText
+    android:id="@+id/edittext_editDatabase"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint=" Vehicle Name \n Vehicle Code \n Parking Charge"
+    android:ems="13"
+    android:layout_marginTop="100dp"
+    />
+
+    <Button
+        android:id="@+id/button_DeleteDatabase"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="25dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <Button
+        android:id="@+id/button_saveEditeddatabase"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="160dp"
+        android:background="@color/colorPrimary"
+        />
+
+</RelativeLayout>

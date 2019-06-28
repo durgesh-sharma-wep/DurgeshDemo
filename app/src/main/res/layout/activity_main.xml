@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background2"
+    >
+
+    <ImageView
+        android:layout_gravity="bottom"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/weplogo" />
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="User Name"
+        android:ems="10"
+        android:layout_marginTop="100dp"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        />
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Not Register?"
+            />
+        <TextView
+            android:id="@+id/textview_register"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Register"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

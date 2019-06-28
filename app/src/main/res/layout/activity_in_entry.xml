@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InEntry"
+    android:orientation="horizontal"
+    >
+
+    <EditText
+        android:id="@+id/editext_InvechNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Vehicle Number" />
+
+    <Spinner
+        android:id="@+id/spinner_InvechTye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editext_InvechNum"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"></Spinner>
+
+    <EditText
+        android:id="@+id/editext_InvechCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editext_InvechNum"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@+id/spinner_InvechTye"
+        android:layout_toRightOf="@+id/spinner_InvechTye"
+        android:hint="Vehicle code" />
+
+    <Button
+        android:id="@+id/button_inVech"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editext_InvechCode"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:background="@color/colorPrimary"
+        android:text="In Vehicle"
+        android:textStyle="bold" />
+
+</RelativeLayout>

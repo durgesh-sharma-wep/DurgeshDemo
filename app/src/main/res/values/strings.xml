@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeP HandHeld Parking</string>
+    <string name="RegisterScreen">Register New User</string>
+    <string name="VehicleDatabase">Vehicle Database Management</string>
+    <string name="VehicleDatabaseEntry">Vehicle Database Entry</string>
+    <string name="VehicleDetails">Vehicle Details</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="InEntry">In Entry</string>
+</resources>

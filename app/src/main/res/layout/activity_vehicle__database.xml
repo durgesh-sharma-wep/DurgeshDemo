@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vehicle_Database"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/adddatabase_button"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+
+        />
+    <Button
+        android:id="@+id/button_addvehicle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ADD VEHICLE"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="150dp"
+    />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/view_database"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"
+
+        />
+
+    <Button
+        android:id="@+id/button_viewvehicle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="VIEW VEHICLE"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp"
+        android:background="@color/colorPrimary"
+
+        />
+    <Button
+        android:id="@+id/button_deletevehicle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ERASE DATABASE"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="150dp"
+        />
+    />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/erase_database_button"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="105dp"
+    />
+</RelativeLayout>
